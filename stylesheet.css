@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#e5d3b3;
+}
+
+header {
+   background-image: url(images/homeheader.png);
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #987554;
+    padding: 0.5em;
+    margin-top: auto; /* pushes footer to bottom */
+}
+
+h2 {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-left: 20em;
+    margin-top: 1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+    margin: 1em 1.5em;
+}
+
+nav.center ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.center ul li {
+    width: 10em;
+    margin: 2em 0;
+    border-radius: 4em;
+    background-color: #987554;
+    padding: 1em;
+}
+
+nav.center ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.delicious-list {
+    list-style: none;
+    padding: 0;
+}
+
+.delicious-list li {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.delicious-list img {
+    max-width: 50%;
+}
+
+.delicious-list p {
+    text-align: center;
+}
+
+.goodsimage {
+    max-width: 30%;
+    height: auto; /* images wont distort when resizing */
+    padding: 0.3em;
+}
+
+.goodsimage-container {
+    display: grid;
+    text-align: center;
+    margin: 1.25em auto; /* automatically center horizontally*/
+    max-width: 70%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section article:nth-child(odd) { /* alle oneven images this style */
+    display: flex;
+    align-items: center;;
+    flex-direction: row;
+    border-radius: 1em;
+    background:#e5d3b3
+}
+
+section article:nth-child(even) { /* alle even images this style */
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 1em;
+    background: #d2b48c
+}
+
+section article:nth-child(odd) > p { /* margin for text */
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section article:nth-child(even) > p {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
