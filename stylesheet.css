@@ -5,12 +5,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color:#e5d3b3;
+    font-family: "Quattrocento", sans-serif;
 }
 
 header {
    background-image: url(images/homeheader.svg);
    background-repeat: no-repeat;
-   height: 100vh;
+   height: 80vh;
    margin: 0;
    padding: 0;
 }
@@ -20,6 +21,7 @@ footer {
     background-color: #987554;
     padding: 0.5em;
     margin-top: auto; /* pushes footer to bottom */
+    margin-bottom: 116px;
 }
 
 h2 {
@@ -74,6 +76,10 @@ nav.center ul li a {
 nav.bottom-navigation {
     background-color: #d2b48c;
     padding: 1em;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 nav.bottom-navigation ul {
