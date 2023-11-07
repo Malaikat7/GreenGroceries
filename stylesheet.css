@@ -9,9 +9,9 @@ body {
 }
 
 header {
-   background-image: url(images/homeheader.svg);
+   background-image: url(images/realhomeheader.svg);
    background-repeat: no-repeat;
-   height: 80vh;
+   height: 60vh;
    margin: 0;
    padding: 0;
 }
