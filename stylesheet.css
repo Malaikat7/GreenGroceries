@@ -10,6 +10,7 @@ body {
 
 main p {
     padding: 1em;
+    line-height: 1.1;
 }
 
 header {
@@ -34,7 +35,7 @@ header h2 {
 }
 
 header img {
-    width: 45px;
+    width: 55px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -129,7 +130,7 @@ nav.bottom-navigation ul li img {
 .delicious-list {
     list-style: none;
     padding: 0;
-    margin-top: 5em;
+    margin-top: 3em;
     margin-bottom: 5em;
 }
 
@@ -173,7 +174,7 @@ nav.bottom-navigation ul li img {
 section {
     display: flex;
     flex-direction: column;
-    margin-top: 5em;
+    margin-top: 3em;
     margin-bottom: 5em;
     margin-left: 1em;
     margin-right: 1em;
@@ -220,11 +221,18 @@ section article p {
     max-width: 50%;
     float: left;
     margin-right: 10px;
-    margin-top: 1em;
 }
 
 .inline-text {
-    margin-top: 5em;
+    margin-top: 3em;
     padding: 0 2em;
+    line-height: 1.2;
+}
+
+.inline-text:first-child {
+    margin-bottom: 1em;
+}
+
+.inline-text:last-child {
     margin-bottom: 5em;
 }
